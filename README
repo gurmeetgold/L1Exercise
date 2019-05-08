@@ -1,0 +1,26 @@
+-- Run the SprintBootApplication - l1exercise
+
+-- Application will run on port 8080
+
+-- After this you can access DB from following URL http://localhost:8080/h2-console
+
+-- In the below login page, in JDBC URL input, enter value below and click connect
+
+    JDBC URL:     jdbc:h2:mem:userDB
+
+
+
+-- REST URLs:
+
+http://localhost:8080/hello
+Returns - Hello World
+
+http://localhost:8080/getText/This is new a Text message
+Returns - This is a new Text message
+
+http://localhost:8080/message
+Returns - Entered text, after clicking on Submit button
+
+http://localhost:8080/user
+Returns - Save user in H2 DB and returns the entered row values
+

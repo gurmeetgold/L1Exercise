@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Submitted Message</h1>
+<p th:text="'Content: ' + ${message.messageValue}" />
+<a href="/message">Submit another message</a>
+</body>
+</html>

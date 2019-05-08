@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>User Saved!</h1>
+<tr><tr>
+<p th:text="'User ID: ' + ${user.id}" />
+<p th:text="'User Name: ' + ${user.userName}" />
+<p th:text="'Email Address: ' + ${user.emailAddr}" />
+<p th:text="'City: ' + ${user.city}" />
+<p th:text="'Create Date: ' + ${user.creationDate}" />
+<a href="/user">Add another user</a>
+
+</body>
+</html>
